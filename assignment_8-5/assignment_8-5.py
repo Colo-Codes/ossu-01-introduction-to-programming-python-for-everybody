@@ -6,6 +6,7 @@
 
 # You can download the sample data at http://www.py4e.com/code3/mbox-short.txt
 
+# Initial implementation:
 file_name = input("Enter file name: ")
 if len(file_name) < 1:
     file_name = "mbox-short.txt"
@@ -17,6 +18,25 @@ count = 0
 
 for line in file_text.split('\n'):
     if line.startswith('From '):
+        words = line.split()
+        print(words[1])
+        email_list.append(words[1])
+        count += 1
+
+print("There were", count, "lines in the file with From as the first word")
+
+# Better implementation (no need to read file)
+file_name = input("Enter file name: ")
+if len(file_name) < 1:
+    file_name = "mbox-short.txt"
+
+file_handle = open(file_name)
+email_list = list()
+count = 0
+
+for line in file_handle:
+    if line.startswith('From '):
+        line.rstrip()
         words = line.split()
         print(words[1])
         email_list.append(words[1])
