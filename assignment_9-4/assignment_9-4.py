@@ -17,8 +17,8 @@ for line in file_handle:
         email = line.split()[1]
         emails[email] = emails.get(email, 0) + 1
 
-max_key = ''
-max_value = 0
+max_key = None
+max_value = -1
 for key, value in emails.items():
     if value > max_value:
         max_key = key
