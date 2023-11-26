@@ -19,8 +19,5 @@ for line in file_handle:
         hour = words[5].split(':')[0]
         hours_dict[hour] = hours_dict.get(hour, 0) + 1
 
-hours_list = list(hours_dict.items())
-hours_list.sort()
-
-for k, v in hours_list:
+for k, v in sorted(hours_dict.items()):
     print(k, v)
