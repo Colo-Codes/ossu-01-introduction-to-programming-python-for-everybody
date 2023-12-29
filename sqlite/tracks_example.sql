@@ -49,3 +49,26 @@ INSERT INTO Tracks (title, rating, length, count, album_id, genre_id) VALUES ('B
 INSERT INTO Tracks (title, rating, length, count, album_id, genre_id) VALUES ('Stairway', 5, 482, 0, 2, 1);
 INSERT INTO Tracks (title, rating, length, count, album_id, genre_id) VALUES ('About to Rock', 5, 313, 0, 1, 2);
 INSERT INTO Tracks (title, rating, length, count, album_id, genre_id) VALUES ('Who Made Who', 5, 207, 0, 1, 2);
+
+-- RECONSTRUCTING DATA
+-- -------------------
+
+SELECT Albums.title, Artists.name
+FROM Albums
+JOIN Artists ON Albums.artist_id = Artists.id -- ON starting part of a relation arrow = ending part of a relation arrow
+
+SELECT Tracks.title, Genres.name
+FROM Tracks
+JOIN Genres ON Tracks.genre_id = Genres.id
+
+-- Not using the ON clause will give us all possible row combinations
+SELECT Tracks.title, Genres.name
+FROM Tracks
+JOIN Genres
+
+-- A more complex example
+SELECT Tracks.title, Artists.name, Albums.title, Genres.name
+FROM Tracks JOIN Genres JOIN Albums JOIN Artists
+ON Tracks.genre_id = Genres.id
+    AND Tracks.album_id = Albums.id
+    AND Albums.artist_id = Artists.id
