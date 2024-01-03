@@ -1,0 +1,3900 @@
+<!-- NSI Web Service v8.8.0.0 -->
+<message:GenericData
+  xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer"
+  xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"
+  xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <message:Header>
+    <message:ID>IREF074327</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2024-01-03T18:11:59</message:Prepared>
+    <message:Sender id="_Stat_V8" />
+    <message:Structure
+      structureID="ABS_RES_DWELL_ST_1_0_0"
+      dimensionAtObservation="TIME_PERIOD"
+    >
+      <common:StructureUsage>
+        <Ref agencyID="ABS" id="RES_DWELL_ST" version="1.0.0" />
+      </common:StructureUsage>
+    </message:Structure>
+    <message:DataSetAction>Information</message:DataSetAction>
+    <message:DataSetID>RES_DWELL_ST</message:DataSetID>
+  </message:Header>
+  <message:DataSet action="Information" structureRef="ABS_RES_DWELL_ST_1_0_0">
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="3" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="1784.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="1791.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="1796.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="1803.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="1811.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="1819" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="1823.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="1831.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="1838.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="1846.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="1852.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="1859.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="1870.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="1879.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="1889.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="1900.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="1909.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="1923.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="1933" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="1944.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="1957.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="1971" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="1980.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="1992.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="2002.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="2015.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="2023.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="2034.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="2047.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="2057.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="2065.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="2072.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="2083.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="2091" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="2098" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="2106.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="2116.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="2127.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="2137.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="2148.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="2160.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="2169" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="2177.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="2186.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="2194.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="2202.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="2209.1" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="2217.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="2229.3" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="1" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="540.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="535.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="547.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="552.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="544.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="562" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="569.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="580" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="594" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="620.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="631.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="649.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="666.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="693.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="718.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="760.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="788.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="781.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="779.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="802" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="823.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="858.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="885.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="906.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="897.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="906.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="899.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="886.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="868.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="845.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="825.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="827.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="863.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="883.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="895.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="888" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="912.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="952.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="1006.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="1044.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="1148.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="1208.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="1221.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="1191.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="1136.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="1133.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="1129.6" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="1162.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="1187.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="2" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="2265.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="2278.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="2287.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="2299.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="2309.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="2321.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="2331.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="2342" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="2353" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="2364.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="2373.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="2385.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="2399.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="2415.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="2429" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="2443.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="2459.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="2476.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="2488" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="2505.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="2521" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="2537.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="2550.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="2565" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="2580.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="2595.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="2605.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="2621.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="2636.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="2650.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="2662.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="2676.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="2690.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="2706.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="2717.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="2732" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="2745.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="2761.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="2772.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="2788.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="2803.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="2817.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="2827.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="2839.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="2852.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="2866.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="2877.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="2888.6" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="2904.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="6" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="305.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="310" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="304.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="295.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="291.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="297.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="293.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="297.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="297.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="306.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="307.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="307.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="310.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="309.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="312.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="321.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="321.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="328.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="322.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="334.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="338.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="350.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="356" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="361.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="374.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="384.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="398.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="401.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="410.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="416.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="411.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="423.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="423.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="444.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="460.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="460.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="461.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="500.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="546.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="570.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="611.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="688.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="694.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="687" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="677.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="665.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="670.3" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="657.8" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="655.7" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="7" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="522.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="472.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="464.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="457.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="466.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="501.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="488.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="492.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="498.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="521.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="515.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="524.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="501.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="517" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="486.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="498.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="522.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="483.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="489.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="482" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="466.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="457.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="455.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="454" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="452.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="441.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="449.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="441.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="417.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="447.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="431.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="439.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="439.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="411.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="415.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="426.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="420.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="458.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="447.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="470.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="484.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="503.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="532.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="503.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="491.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="510.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="517.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="519.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="525.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="1" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="2839" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="2845.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="2850.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="2856.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="2862.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="2871.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="2877.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="2884.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="2892.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="2901.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="2908.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="2917.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="2930.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="2944.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="2955.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="2968.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="2982.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="2998.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="3010.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="3028" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="3044.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="3060" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="3072.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="3086" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="3099.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="3113.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="3127.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="3142.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="3159.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="3178" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="3190.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="3207.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="3220.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="3236.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="3246.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="3259.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="3277.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="3294.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="3311.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="3328.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="3344.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="3356.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="3366" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="3375.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="3387.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="3398.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="3409.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="3420.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="3436.8" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="AUS" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="9002.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="9037.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="9063.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="9097.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="9130.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="9166.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="9193.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="9226.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="9261.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="9299.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="9329.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="9366.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="9416.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="9467.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="9511.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="9562.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="9613.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="9673.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="9715.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="9774.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="9829.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="9884.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="9927.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="9974.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="10022.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="10071.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="10111.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="10161.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="10213.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="10264.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="10303.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="10350.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="10393.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="10441.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="10476.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="10518.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="10568.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="10622.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="10667.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="10720.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="10772.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="10813.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="10847.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="10886.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="10926.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="10969" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="11003.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="11042.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="11094.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="4" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="722.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="724.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="726.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="728.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="730.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="732.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="733.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="735.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="737.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="739.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="740.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="742.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="745" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="747.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="749" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="751.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="753.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="755.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="757.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="759.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="761.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="763.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="765.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="767" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="768.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="771.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="773.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="775.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="777.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="780.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="782.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="784.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="786.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="788.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="789.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="791.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="794" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="796.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="798.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="800.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="802.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="804.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="806.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="808.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="811.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="813.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="815.7" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="817.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="820" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="4" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="379.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="384.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="377.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="378.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="375.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="375.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="379.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="379.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="383.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="396.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="402.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="402.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="402" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="412.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="414.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="412.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="418.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="421.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="425.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="423.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="424.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="433.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="439.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="437.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="442.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="449.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="452.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="449.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="451.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="459.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="457.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="454.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="452.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="470.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="465.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="467.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="482.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="503" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="519.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="543.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="573.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="619.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="645.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="651.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="649.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="662.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="663.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="694" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="722.1" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="8" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="547.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="561.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="553" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="552.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="542.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="564.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="543.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="564.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="550.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="573" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="563" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="568.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="569.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="582.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="586.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="591.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="593.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="611.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="595.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="611.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="611.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="641.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="644.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="649.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="646.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="670.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="674.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="679.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="674.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="678.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="670.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="668.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="673.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="707" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="701.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="717.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="733" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="764" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="818.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="885.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="906.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="999.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="983.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="999.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="946.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="962.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="940.8" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="940.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="943.8" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="AUS" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="490.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="486.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="488.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="489.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="486.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="496.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="501.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="508.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="515.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="532.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="539.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="547.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="553.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="568.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="579.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="600.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="611" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="611.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="609.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="619.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="628.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="651.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="665" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="678.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="676.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="689.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="688" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="681.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="671.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="661.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="646" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="649.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="668.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="686.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="694.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="689.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="706.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="738.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="778.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="813.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="865.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="916.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="930.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="921.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="890.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="891" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="890.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="906.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="925.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="8" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="144.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="145.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="146.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="147.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="148.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="149.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="150.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="151.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="153.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="153.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="154.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="155.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="156.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="157.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="158.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="160" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="160.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="161.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="162.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="163" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="163.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="164.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="165.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="166.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="167.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="168.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="169.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="170.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="171.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="172.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="173.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="174.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="175.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="176.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="178.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="178.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="180.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="183.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="184.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="185.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="187.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="188.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="189.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="190.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="191.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="193.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="194.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="195.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="196.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="5" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="524.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="521.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="532.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="530.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="537.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="550.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="560.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="572.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="572.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="586" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="586.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="592.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="585.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="588.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="578.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="576" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="559.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="552.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="542.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="531.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="522.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="538.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="525" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="520.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="521.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="530.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="530.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="516.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="517.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="510.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="506" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="500.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="503.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="499.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="501.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="499.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="523.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="552.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="582.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="583.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="596.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="619.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="628.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="643.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="628.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="645.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="653.6" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="659.3" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="681.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="5" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="942" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="946.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="950.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="954.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="959.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="963.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="966.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="970.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="975.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="981.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="985.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="992.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="999" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="1005.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="1011.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="1019.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="1027.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="1037" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="1043.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="1051.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="1058" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="1063.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="1068.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="1072.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="1077.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="1080.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="1084.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="1088.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="1092.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="1096.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="1099.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="1103.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="1106.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="1109.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="1112.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="1115.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="1118.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="1120.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="1123.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="1126.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="1129" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="1131.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="1134.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="1137.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="1140.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="1144.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="1147.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="1151" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="1154.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="6" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="230.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="231.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="231.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="232.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="232.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="233.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="233.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="234.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="234.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="234.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="235.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="235.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="236.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="236.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="237.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="237.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="238.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="238.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="239.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="239.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="240.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="240.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="241.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="241.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="242" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="242.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="243" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="243.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="244.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="244.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="245.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="246" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="246.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="247.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="247.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="248.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="250.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="251.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="253.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="255" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="256.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="257.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="258.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="259.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="260" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="260.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="261.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="262.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="263.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="4" />
+        <generic:Value id="REGION" value="7" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="74" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="74.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="74.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="75.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="75.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="75.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="76.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="76.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="76.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="77.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="77.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="78.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="79.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="80.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="80.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="80.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="81.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="81.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="82.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="82.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="82.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="83.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="83.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="83.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="83.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="84.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="84.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="84.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="84.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="84.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="85.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="85.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="85.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="85.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="85.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="85.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="86.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="86.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="87.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="87.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="88.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="88.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="88.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="88.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="88.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="88.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="89" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="89.2" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="89.5" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="2" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="512.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="506.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="500" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="500.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="491.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="501.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="506.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="511.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="523.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="538.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="544.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="546.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="550.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="566.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="581.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="606.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="616.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="622.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="625.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="634.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="646.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="674.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="695.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="723.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="717.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="746.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="743.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="737.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="717.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="708.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="683" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="690.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="715.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="749.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="761.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="748.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="757.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="792.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="831.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="874.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="900.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="941.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="942.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="928.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="901.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="901.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="898.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="894.8" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="903.6" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="5" />
+        <generic:Value id="REGION" value="3" />
+        <generic:Value id="FREQ" value="Q" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="AUD" />
+        <generic:Value id="UNIT_MULT" value="3" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q3" />
+        <generic:ObsValue value="428.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011-Q4" />
+        <generic:ObsValue value="425.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q1" />
+        <generic:ObsValue value="422.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q2" />
+        <generic:ObsValue value="423.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q3" />
+        <generic:ObsValue value="426.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012-Q4" />
+        <generic:ObsValue value="426.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q1" />
+        <generic:ObsValue value="427" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q2" />
+        <generic:ObsValue value="431" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q3" />
+        <generic:ObsValue value="430.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013-Q4" />
+        <generic:ObsValue value="439.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q1" />
+        <generic:ObsValue value="446.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q2" />
+        <generic:ObsValue value="451" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q3" />
+        <generic:ObsValue value="454.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014-Q4" />
+        <generic:ObsValue value="461" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q1" />
+        <generic:ObsValue value="461.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q2" />
+        <generic:ObsValue value="467.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q3" />
+        <generic:ObsValue value="472.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015-Q4" />
+        <generic:ObsValue value="478.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q1" />
+        <generic:ObsValue value="473.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q2" />
+        <generic:ObsValue value="481.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q3" />
+        <generic:ObsValue value="482.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016-Q4" />
+        <generic:ObsValue value="492.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q1" />
+        <generic:ObsValue value="494" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q2" />
+        <generic:ObsValue value="496.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q3" />
+        <generic:ObsValue value="502" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017-Q4" />
+        <generic:ObsValue value="506.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q1" />
+        <generic:ObsValue value="509.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q2" />
+        <generic:ObsValue value="511.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q3" />
+        <generic:ObsValue value="516" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018-Q4" />
+        <generic:ObsValue value="510.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q1" />
+        <generic:ObsValue value="501" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q2" />
+        <generic:ObsValue value="506.7" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q3" />
+        <generic:ObsValue value="514.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019-Q4" />
+        <generic:ObsValue value="520.6" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q1" />
+        <generic:ObsValue value="524.9" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q2" />
+        <generic:ObsValue value="524.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q3" />
+        <generic:ObsValue value="541.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020-Q4" />
+        <generic:ObsValue value="562.5" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q1" />
+        <generic:ObsValue value="593.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q2" />
+        <generic:ObsValue value="636.4" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q3" />
+        <generic:ObsValue value="674.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021-Q4" />
+        <generic:ObsValue value="734.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q1" />
+        <generic:ObsValue value="768.8" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q2" />
+        <generic:ObsValue value="777.1" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q3" />
+        <generic:ObsValue value="759.3" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022-Q4" />
+        <generic:ObsValue value="751.2" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q1" />
+        <generic:ObsValue value="757.1" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q2" />
+        <generic:ObsValue value="773.4" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="r" />
+        </generic:Attributes>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2023-Q3" />
+        <generic:ObsValue value="797.9" />
+        <generic:Attributes>
+          <generic:Value id="OBS_STATUS" value="p" />
+        </generic:Attributes>
+      </generic:Obs>
+    </generic:Series>
+  </message:DataSet>
+</message:GenericData>

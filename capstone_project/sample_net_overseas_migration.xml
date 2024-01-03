@@ -1,0 +1,819 @@
+<!-- NSI Web Service v8.8.0.0 -->
+<message:GenericData
+  xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer"
+  xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"
+  xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <message:Header>
+    <message:ID>IREF070982</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2024-01-03T18:08:10</message:Prepared>
+    <message:Sender id="_Stat_V8" />
+    <message:Structure
+      structureID="ABS_NOM_CY_1_0_0"
+      dimensionAtObservation="TIME_PERIOD"
+    >
+      <common:StructureUsage>
+        <Ref agencyID="ABS" id="NOM_CY" version="1.0.0" />
+      </common:StructureUsage>
+    </message:Structure>
+    <message:DataSetAction>Information</message:DataSetAction>
+    <message:DataSetID>NOM_CY</message:DataSetID>
+  </message:Header>
+  <message:DataSet action="Information" structureRef="ABS_NOM_CY_1_0_0">
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="1" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="45970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="50810" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="62030" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="76900" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="96430" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="70160" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="50040" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="54170" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="63140" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="67580" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="68350" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="72840" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="96200" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="94930" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="92890" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="79280" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="6940" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="11900" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="142390" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="5" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="16890" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="22570" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="28070" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="34430" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="48190" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="32840" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="31900" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="43280" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="49970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="29060" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="15510" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="12740" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="11960" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="11700" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="14550" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="25510" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="5190" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="-1210" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="44200" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="AUS" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="138800" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="157180" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="197490" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="244030" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="315690" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="246900" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="172040" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="206240" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="240250" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="208380" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="182350" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="186730" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="243830" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="241660" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="252220" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="247620" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="-4970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="6870" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="422230" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="3" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="25930" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="29800" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="38390" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="47680" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="62840" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="47330" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="31670" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="40920" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="47260" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="33460" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="23030" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="19480" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="32430" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="27640" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="33740" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="33920" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="-1020" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="-790" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="65640" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="7" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="1230" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="1120" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="340" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="1380" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="1970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="1690" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="1090" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="2070" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="4120" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="3190" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="1140" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="1540" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="2090" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="1240" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="560" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="990" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="60" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="720" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="2510" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="8" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="1020" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="1500" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="1880" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="3330" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="3670" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="2000" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="3050" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="3560" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="2650" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="3210" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="3270" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="3850" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="4350" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="3820" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="2230" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="-480" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="-770" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="7010" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="2" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="39080" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="40170" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="52350" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="66470" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="83230" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="72090" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="43210" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="51060" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="58750" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="58500" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="58390" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="64190" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="82910" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="87130" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="89540" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="85060" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="-20370" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="-5550" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="130580" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="6" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="1290" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="1230" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="1390" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="1470" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="2090" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="1930" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="1230" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="1250" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="1580" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="1790" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="1730" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="1410" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="2280" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="2570" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="3170" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="3970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="630" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="1440" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="4170" />
+      </generic:Obs>
+    </generic:Series>
+    <generic:Series>
+      <generic:SeriesKey>
+        <generic:Value id="MEASURE" value="3" />
+        <generic:Value id="AGE" value="TOT" />
+        <generic:Value id="SEX" value="3" />
+        <generic:Value id="REGION" value="4" />
+        <generic:Value id="FREQ" value="A" />
+      </generic:SeriesKey>
+      <generic:Attributes>
+        <generic:Value id="UNIT_MEASURE" value="NUM" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2004" />
+        <generic:ObsValue value="7390" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2005" />
+        <generic:ObsValue value="10520" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2006" />
+        <generic:ObsValue value="13420" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2007" />
+        <generic:ObsValue value="13830" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2008" />
+        <generic:ObsValue value="17620" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2009" />
+        <generic:ObsValue value="17170" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2010" />
+        <generic:ObsValue value="10890" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2011" />
+        <generic:ObsValue value="10430" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2012" />
+        <generic:ObsValue value="11870" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2013" />
+        <generic:ObsValue value="12130" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2014" />
+        <generic:ObsValue value="10970" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2015" />
+        <generic:ObsValue value="11250" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2016" />
+        <generic:ObsValue value="12110" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2017" />
+        <generic:ObsValue value="12100" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2018" />
+        <generic:ObsValue value="13960" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2019" />
+        <generic:ObsValue value="16640" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2020" />
+        <generic:ObsValue value="4060" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2021" />
+        <generic:ObsValue value="1110" />
+      </generic:Obs>
+      <generic:Obs>
+        <generic:ObsDimension id="TIME_PERIOD" value="2022" />
+        <generic:ObsValue value="25660" />
+      </generic:Obs>
+    </generic:Series>
+  </message:DataSet>
+</message:GenericData>
