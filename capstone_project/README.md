@@ -114,36 +114,53 @@ normalisation will be required to analyse it correctly.
 
 ### Building a data fetching script
 
-I started by building the Python script to get the data from the Australian
-Bureau of Statistics API endpoints. As the data is available in XML format, I
-used the `xml.etree.ElementTree` module to parse the XML response.
+I started by building the Python script (`data_getter.py`) to get the data from
+the Australian Bureau of Statistics API endpoints. As the data is available in
+XML format, I used the `xml.etree.ElementTree` module to parse the XML response.
 
 I decided to consider the period from 2011 to 2022 for the analysis. This is
 because the data for the number of residential dwellings is only available from
 2011 onwards, and the is no migration data for 2023 yet.
 
+Once the XML data is parsed, I insert it into a SQLite database
+(`capstone.sqlite`). I decided to use SQLite because it is lightweight and easy
+to use (and the database that we have been using throughout the course).
+
 ### Building a data normalisation script
 
-### Basic statistics
+After fetching the data, I noticed that the data is not normalised. For example,
+the number of residential dwellings is available in quarters, while the
+employment ratio is available in months. I decided to normalise the data to
+years, as is the case with migrations data.
 
-With the data already normalised, I can start performing some basic statistics
-such as:
+I built another Python script (`data_normaliser.py`) to normalise the data. This
+script also performs a data insertion into a "clean" database
+(`capstone_normalised.sqlite`). This database will be used for the analysis and
+visualisation of the data.
+
+## Data Analysis and Visualization
+
+Once the data is normalised, I can start performing some analysis and
+visualization.
+
+I started by getting basic statistics about the data. I built a Python script
+(`data_stats.py`) to get the following statistics:
 
 - Migration
-  - Year with most migration
-  - Year with less migration
+  - Year with highest migration
+  - Year with lowest migration
   - Average Migration per year
   - Average Migration per state
 - Employment ratio
-  - Year with most employment ratio
-  - Year with less employment ratio
+  - Year with highest employment ratio
+  - Year with lowest employment ratio
   - Average employment ratio per year
   - Average employment ratio per state
 - Dwellings (quantity)
-  - Year with most dwellings growth (compared to previous year)
-  - Year with less dwellings growth (compared to previous year)
-  - Average dwellings growth per year (compared to previous year)
+  - Year with highest dwellings number
+  - Year with lowest dwellings number
+  - Average dwellings number per year
 - Dwellings (price)
-  - Year with most dwelling price growth (compared to previous year)
-  - Year with less dwelling price growth (compared to previous year)
-  - Average dwelling price growth per year (compared to previous year)
+  - Year with highest dwelling price
+  - Year with lowest dwelling price
+  - Average dwelling price per year
