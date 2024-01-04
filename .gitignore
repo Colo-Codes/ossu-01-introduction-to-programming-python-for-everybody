@@ -1,5 +1,4 @@
 .DS_Store
 star_wars_poem.txt
 test.py
-socket_examples/.DS_Store
-course_resources/.DS_Store
+*/.DS_Store

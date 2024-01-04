@@ -8,11 +8,13 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-service_url = 'https://api.data.abs.gov.au/data/'
+data_service_url = 'https://api.data.abs.gov.au/data/'
+codelist_service_url = 'https://api.data.abs.gov.au/datastructure/ABS/NOM_CY?references=codelist'
 
 # Database
 sqlite_connection = sqlite3.connect('capstone.sqlite')
 cursor = sqlite_connection.cursor()
+
 # Make some fresh tables using executescript()
 cursor.executescript('''
     DROP TABLE IF EXISTS migrations;
@@ -43,12 +45,12 @@ cursor.executescript('''
     );
                      
     CREATE TABLE regions (
-        id INTEGER NOT NULL PRIMARY KEY UNIQUE,
+        id CHAR(255),
         name CHAR(255)
     );
 ''')
 
-def get_data(query_setup, start_period = True, end_period = False, include_months = False, include_quarters = False):
+def get_data(query_setup, start_period = True, end_period = False, include_months = False, include_quarters = False, get_regions = False):
     START_YEAR = '2011'
     START_MONTH = '01'
     START_QUARTER = 'Q1'
@@ -74,7 +76,10 @@ def get_data(query_setup, start_period = True, end_period = False, include_month
         else:
             params['endPeriod'] = END_YEAR
     
-    url = service_url  + query_setup + urllib.parse.urlencode(params)
+    if get_regions:
+        url = codelist_service_url
+    else:
+        url = data_service_url  + query_setup + urllib.parse.urlencode(params)
     print('\nRetrieving...', url)
 
     url_handle = urllib.request.urlopen(url, context=ctx)
@@ -82,6 +87,23 @@ def get_data(query_setup, start_period = True, end_period = False, include_month
     print('Retrieved', len(data), 'characters')
 
     return data
+
+def parse_state_data(data):
+    xml_root = ET.fromstring(data)
+    codelist_elements = xml_root.findall(".//{http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure}Codelist")
+
+    output = []
+    state_code = 'CL_STATE'
+    for codelist in codelist_elements:
+        if codelist.attrib["id"] != state_code: continue
+
+        codes = codelist.findall(".//{http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure}Code")
+        for code in codes:
+            state_code = code.attrib['id']
+            state_name = code.find(".//{http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common}Name").text
+            output.append((state_code, state_name))
+
+    return output
 
 def parse_data(data, compound_data = False):
     xml_root = ET.fromstring(data)
@@ -116,6 +138,28 @@ def parse_data(data, compound_data = False):
                 output.append((region_value, time_period, value))
     
     return output
+
+# Australian regions
+try:
+    query_setup = None
+    start_period = False
+    end_period = False
+    include_months = False
+    include_quarters = False
+    get_regions = True
+    regions_data = get_data(query_setup, start_period, end_period, include_months, include_quarters, get_regions)
+    
+    parsed_states = parse_state_data(regions_data)
+
+    for state_code, state_name in parsed_states:
+        print(f"Inserting into database... STATE_CODE: {state_code}, STATE_NAME: {state_name}")
+        
+        cursor.execute('''INSERT OR IGNORE INTO regions (id, name) 
+        VALUES (?, ?)''', (state_code, state_name) )
+
+        sqlite_connection.commit()
+except:
+    print('ERROR processing: Australian regions')
 
 # Net Overseas Migration (per state)
 try:
@@ -196,3 +240,5 @@ try:
         sqlite_connection.commit()
 except:
     print('ERROR processing: Number of residential dwellings and Mean price of residential dwellings (per state)')
+
+sqlite_connection.close()

@@ -1,0 +1,2106 @@
+<!-- NSI Web Service v8.8.0.0 -->
+<message:Structure
+  xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+  xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+  xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+>
+  <message:Header>
+    <message:ID>IDREF59411</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2024-01-04T08:54:25.3821585+11:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist
+        id="CL_FREQ"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">Frequency</common:Name>
+        <structure:Code id="H">
+          <common:Name xml:lang="en">Hourly</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            hour.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="D">
+          <common:Name xml:lang="en">Daily</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            day.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="N">
+          <common:Name xml:lang="en">Minutely</common:Name>
+          <common:Description xml:lang="en"
+            >While N denotes "minutely", usually, there may be no observations
+            every minute (for several series the frequency is usually
+            "irregular" within a day/days). And though observations may be
+            sparse (not collected or disseminated every minute), missing values
+            do not need to be given for the minutes when no observations exist:
+            in any case the time stamp determines when an observation is
+            observed.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="B">
+          <common:Name xml:lang="en">Daily or businessweek</common:Name>
+          <common:Description xml:lang="en"
+            >Similar to "daily", however there are no observations for Saturdays
+            and Sundays (so, neither "missing values" nor "numeric values"
+            should be provided for Saturday and Sunday). This treatment
+            ("business") is one way to deal with such cases, but it is not the
+            only option. Such a time series could alternatively be considered
+            daily ("D"), thus, with missing values in the
+            weekend.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="W">
+          <common:Name xml:lang="en">Weekly</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            week.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="S">
+          <common:Name xml:lang="en">Half-yearly, semester</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            semester.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Annual</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            year.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Monthly</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            month.</common:Description
+          >
+        </structure:Code>
+        <structure:Code id="Q">
+          <common:Name xml:lang="en">Quarterly</common:Name>
+          <common:Description xml:lang="en"
+            >To be used for data collected or disseminated every
+            quarter.</common:Description
+          >
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_MIGRATION_AGE"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en"
+          >Migration Ages, single year of age up to 75 and over</common:Name
+        >
+        <structure:Code id="TOT">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">All ages</common:Name>
+          <common:Description xml:lang="en">All ages</common:Description>
+        </structure:Code>
+        <structure:Code id="A50">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5450</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">50-54</common:Name>
+          <common:Description xml:lang="en">50-54</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="54">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">54</common:Name>
+          <common:Description xml:lang="en">54</common:Description>
+          <structure:Parent>
+            <Ref id="A50" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="53">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">53</common:Name>
+          <common:Description xml:lang="en">53</common:Description>
+          <structure:Parent>
+            <Ref id="A50" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="52">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">52</common:Name>
+          <common:Description xml:lang="en">52</common:Description>
+          <structure:Parent>
+            <Ref id="A50" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="51">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">51</common:Name>
+          <common:Description xml:lang="en">51</common:Description>
+          <structure:Parent>
+            <Ref id="A50" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="50">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">50</common:Name>
+          <common:Description xml:lang="en">50</common:Description>
+          <structure:Parent>
+            <Ref id="A50" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A45">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4850</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">45-49</common:Name>
+          <common:Description xml:lang="en">45-49</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="49">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">49</common:Name>
+          <common:Description xml:lang="en">49</common:Description>
+          <structure:Parent>
+            <Ref id="A45" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="48">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">48</common:Name>
+          <common:Description xml:lang="en">48</common:Description>
+          <structure:Parent>
+            <Ref id="A45" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="47">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">47</common:Name>
+          <common:Description xml:lang="en">47</common:Description>
+          <structure:Parent>
+            <Ref id="A45" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="46">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">46</common:Name>
+          <common:Description xml:lang="en">46</common:Description>
+          <structure:Parent>
+            <Ref id="A45" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="45">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">45</common:Name>
+          <common:Description xml:lang="en">45</common:Description>
+          <structure:Parent>
+            <Ref id="A45" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A40">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">40-44</common:Name>
+          <common:Description xml:lang="en">40-44</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="44">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">44</common:Name>
+          <common:Description xml:lang="en">44</common:Description>
+          <structure:Parent>
+            <Ref id="A40" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="43">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">43</common:Name>
+          <common:Description xml:lang="en">43</common:Description>
+          <structure:Parent>
+            <Ref id="A40" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="42">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">4000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">42</common:Name>
+          <common:Description xml:lang="en">42</common:Description>
+          <structure:Parent>
+            <Ref id="A40" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="41">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">41</common:Name>
+          <common:Description xml:lang="en">41</common:Description>
+          <structure:Parent>
+            <Ref id="A40" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="40">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">40</common:Name>
+          <common:Description xml:lang="en">40</common:Description>
+          <structure:Parent>
+            <Ref id="A40" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A55">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6050</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">55-59</common:Name>
+          <common:Description xml:lang="en">55-59</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="55">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">55</common:Name>
+          <common:Description xml:lang="en">55</common:Description>
+          <structure:Parent>
+            <Ref id="A55" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="56">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">56</common:Name>
+          <common:Description xml:lang="en">56</common:Description>
+          <structure:Parent>
+            <Ref id="A55" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="57">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">57</common:Name>
+          <common:Description xml:lang="en">57</common:Description>
+          <structure:Parent>
+            <Ref id="A55" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A70">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7850</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">70-74</common:Name>
+          <common:Description xml:lang="en">70-74</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="73">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">73</common:Name>
+          <common:Description xml:lang="en">73</common:Description>
+          <structure:Parent>
+            <Ref id="A70" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="72">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">72</common:Name>
+          <common:Description xml:lang="en">72</common:Description>
+          <structure:Parent>
+            <Ref id="A70" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="71">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">71</common:Name>
+          <common:Description xml:lang="en">71</common:Description>
+          <structure:Parent>
+            <Ref id="A70" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="70">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">70</common:Name>
+          <common:Description xml:lang="en">70</common:Description>
+          <structure:Parent>
+            <Ref id="A70" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="6599">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8950</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">65 and over</common:Name>
+          <common:Description xml:lang="en">65 and over</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A60">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6650</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">60-64</common:Name>
+          <common:Description xml:lang="en">60-64</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="64">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">64</common:Name>
+          <common:Description xml:lang="en">64</common:Description>
+          <structure:Parent>
+            <Ref id="A60" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="63">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">63</common:Name>
+          <common:Description xml:lang="en">63</common:Description>
+          <structure:Parent>
+            <Ref id="A60" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="62">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">62</common:Name>
+          <common:Description xml:lang="en">62</common:Description>
+          <structure:Parent>
+            <Ref id="A60" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="61">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">61</common:Name>
+          <common:Description xml:lang="en">61</common:Description>
+          <structure:Parent>
+            <Ref id="A60" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="60">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">60</common:Name>
+          <common:Description xml:lang="en">60</common:Description>
+          <structure:Parent>
+            <Ref id="A60" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="59">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">59</common:Name>
+          <common:Description xml:lang="en">59</common:Description>
+          <structure:Parent>
+            <Ref id="A55" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="58">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">5900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">58</common:Name>
+          <common:Description xml:lang="en">58</common:Description>
+          <structure:Parent>
+            <Ref id="A55" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A65">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">65-69</common:Name>
+          <common:Description xml:lang="en">65-69</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="69">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">69</common:Name>
+          <common:Description xml:lang="en">69</common:Description>
+          <structure:Parent>
+            <Ref id="A65" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="68">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">68</common:Name>
+          <common:Description xml:lang="en">68</common:Description>
+          <structure:Parent>
+            <Ref id="A65" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="67">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">67</common:Name>
+          <common:Description xml:lang="en">67</common:Description>
+          <structure:Parent>
+            <Ref id="A65" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="66">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">66</common:Name>
+          <common:Description xml:lang="en">66</common:Description>
+          <structure:Parent>
+            <Ref id="A65" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="65">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">6800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">65</common:Name>
+          <common:Description xml:lang="en">65</common:Description>
+          <structure:Parent>
+            <Ref id="A65" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="74">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">7800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">74</common:Name>
+          <common:Description xml:lang="en">74</common:Description>
+          <structure:Parent>
+            <Ref id="A70" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A15">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1250</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">15-19</common:Name>
+          <common:Description xml:lang="en">15-19</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A10">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">650</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">10-14</common:Name>
+          <common:Description xml:lang="en">10-14</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">14</common:Name>
+          <common:Description xml:lang="en">14</common:Description>
+          <structure:Parent>
+            <Ref id="A10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">13</common:Name>
+          <common:Description xml:lang="en">13</common:Description>
+          <structure:Parent>
+            <Ref id="A10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">12</common:Name>
+          <common:Description xml:lang="en">12</common:Description>
+          <structure:Parent>
+            <Ref id="A10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">11</common:Name>
+          <common:Description xml:lang="en">11</common:Description>
+          <structure:Parent>
+            <Ref id="A10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">10</common:Name>
+          <common:Description xml:lang="en">10</common:Description>
+          <structure:Parent>
+            <Ref id="A10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A59">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">150</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">5-9</common:Name>
+          <common:Description xml:lang="en">5-9</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="9">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">9</common:Name>
+          <common:Description xml:lang="en">9</common:Description>
+          <structure:Parent>
+            <Ref id="A59" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="8">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">8</common:Name>
+          <common:Description xml:lang="en">8</common:Description>
+          <structure:Parent>
+            <Ref id="A59" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="7">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">7</common:Name>
+          <common:Description xml:lang="en">7</common:Description>
+          <structure:Parent>
+            <Ref id="A59" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="6">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">6</common:Name>
+          <common:Description xml:lang="en">6</common:Description>
+          <structure:Parent>
+            <Ref id="A59" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="5">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">5</common:Name>
+          <common:Description xml:lang="en">5</common:Description>
+          <structure:Parent>
+            <Ref id="A59" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A04">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">55</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">0-4</common:Name>
+          <common:Description xml:lang="en">0-4</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="4">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">4</common:Name>
+          <common:Description xml:lang="en">4</common:Description>
+          <structure:Parent>
+            <Ref id="A04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="3">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">3</common:Name>
+          <common:Description xml:lang="en">3</common:Description>
+          <structure:Parent>
+            <Ref id="A04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="2">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">2</common:Name>
+          <common:Description xml:lang="en">2</common:Description>
+          <structure:Parent>
+            <Ref id="A04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="1">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">1</common:Name>
+          <common:Description xml:lang="en">1</common:Description>
+          <structure:Parent>
+            <Ref id="A04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="0">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">0</common:Name>
+          <common:Description xml:lang="en">0</common:Description>
+          <structure:Parent>
+            <Ref id="A04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">15</common:Name>
+          <common:Description xml:lang="en">15</common:Description>
+          <structure:Parent>
+            <Ref id="A15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">16</common:Name>
+          <common:Description xml:lang="en">16</common:Description>
+          <structure:Parent>
+            <Ref id="A15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="17">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">17</common:Name>
+          <common:Description xml:lang="en">17</common:Description>
+          <structure:Parent>
+            <Ref id="A15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="18">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">18</common:Name>
+          <common:Description xml:lang="en">18</common:Description>
+          <structure:Parent>
+            <Ref id="A15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A35">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3650</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">35-39</common:Name>
+          <common:Description xml:lang="en">35-39</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="39">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">39</common:Name>
+          <common:Description xml:lang="en">39</common:Description>
+          <structure:Parent>
+            <Ref id="A35" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="38">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">38</common:Name>
+          <common:Description xml:lang="en">38</common:Description>
+          <structure:Parent>
+            <Ref id="A35" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="37">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">37</common:Name>
+          <common:Description xml:lang="en">37</common:Description>
+          <structure:Parent>
+            <Ref id="A35" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="35">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">35</common:Name>
+          <common:Description xml:lang="en">35</common:Description>
+          <structure:Parent>
+            <Ref id="A35" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A30">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3050</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">30-34</common:Name>
+          <common:Description xml:lang="en">30-34</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="34">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">34</common:Name>
+          <common:Description xml:lang="en">34</common:Description>
+          <structure:Parent>
+            <Ref id="A30" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="33">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2900</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">33</common:Name>
+          <common:Description xml:lang="en">33</common:Description>
+          <structure:Parent>
+            <Ref id="A30" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="32">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">32</common:Name>
+          <common:Description xml:lang="en">32</common:Description>
+          <structure:Parent>
+            <Ref id="A30" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="31">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">31</common:Name>
+          <common:Description xml:lang="en">31</common:Description>
+          <structure:Parent>
+            <Ref id="A30" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="30">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">30</common:Name>
+          <common:Description xml:lang="en">30</common:Description>
+          <structure:Parent>
+            <Ref id="A30" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="36">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">36</common:Name>
+          <common:Description xml:lang="en">36</common:Description>
+          <structure:Parent>
+            <Ref id="A35" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A25">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2450</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">25-29</common:Name>
+          <common:Description xml:lang="en">25-29</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="29">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">29</common:Name>
+          <common:Description xml:lang="en">29</common:Description>
+          <structure:Parent>
+            <Ref id="A25" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="28">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2300</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">28</common:Name>
+          <common:Description xml:lang="en">28</common:Description>
+          <structure:Parent>
+            <Ref id="A25" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="27">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">27</common:Name>
+          <common:Description xml:lang="en">27</common:Description>
+          <structure:Parent>
+            <Ref id="A25" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="25">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2000</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">25</common:Name>
+          <common:Description xml:lang="en">25</common:Description>
+          <structure:Parent>
+            <Ref id="A25" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="A20">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1850</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">20-24</common:Name>
+          <common:Description xml:lang="en">20-24</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="24">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1800</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">24</common:Name>
+          <common:Description xml:lang="en">24</common:Description>
+          <structure:Parent>
+            <Ref id="A20" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="23">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1700</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">23</common:Name>
+          <common:Description xml:lang="en">23</common:Description>
+          <structure:Parent>
+            <Ref id="A20" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="22">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1600</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">22</common:Name>
+          <common:Description xml:lang="en">22</common:Description>
+          <structure:Parent>
+            <Ref id="A20" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="21">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1500</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">21</common:Name>
+          <common:Description xml:lang="en">21</common:Description>
+          <structure:Parent>
+            <Ref id="A20" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="20">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1400</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">20</common:Name>
+          <common:Description xml:lang="en">20</common:Description>
+          <structure:Parent>
+            <Ref id="A20" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="19">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1200</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">19</common:Name>
+          <common:Description xml:lang="en">19</common:Description>
+          <structure:Parent>
+            <Ref id="A15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="26">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">26</common:Name>
+          <common:Description xml:lang="en">26</common:Description>
+          <structure:Parent>
+            <Ref id="A25" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="7599">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">8350</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">75 and over</common:Name>
+          <common:Description xml:lang="en">75 and over</common:Description>
+          <structure:Parent>
+            <Ref id="TOT" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_NOM_MEASURE"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">Net Overseas Migration Measures</common:Name>
+        <structure:Code id="1">
+          <common:Name xml:lang="en">NOM arrivals</common:Name>
+        </structure:Code>
+        <structure:Code id="2">
+          <common:Name xml:lang="en">NOM departures</common:Name>
+        </structure:Code>
+        <structure:Code id="3">
+          <common:Name xml:lang="en">Net Overseas Migration</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_OBS_STATUS"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">Observation Status</common:Name>
+        <structure:Code id="k">
+          <common:Name xml:lang="en">estimate</common:Name>
+        </structure:Code>
+        <structure:Code id="l">
+          <common:Name xml:lang="en">not elsewhere included</common:Name>
+        </structure:Code>
+        <structure:Code id="m">
+          <common:Name xml:lang="en">not recorded</common:Name>
+        </structure:Code>
+        <structure:Code id="n">
+          <common:Name xml:lang="en"
+            >not available for publication but included in totals where
+            applicable, unless otherwise indicated</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="o">
+          <common:Name xml:lang="en"
+            >nil or rounded to zero, including null cells</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="p">
+          <common:Name xml:lang="en"
+            >preliminary figure or series subject to revision</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="q">
+          <common:Name xml:lang="en">not available</common:Name>
+        </structure:Code>
+        <structure:Code id="r">
+          <common:Name xml:lang="en">revised</common:Name>
+        </structure:Code>
+        <structure:Code id="s">
+          <common:Name xml:lang="en"
+            >not currently available due to break in time series</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="t">
+          <common:Name xml:lang="en">not yet available</common:Name>
+        </structure:Code>
+        <structure:Code id="u">
+          <common:Name xml:lang="en">not applicable</common:Name>
+        </structure:Code>
+        <structure:Code id="v">
+          <common:Name xml:lang="en"
+            >not available for publication but included in totals where
+            applicable, unless otherwise indicated</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="w">
+          <common:Name xml:lang="en"
+            >estimate is subject to sampling variability too high for most
+            practical purposes</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="x">
+          <common:Name xml:lang="en"
+            >estimate has a relative standard error of 10% to less than 25% and
+            should be used with caution</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="y">
+          <common:Name xml:lang="en"
+            >estimate has a relative standard error between 25% and 50% and
+            should be used with caution</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="z">
+          <common:Name xml:lang="en"
+            >estimate has a relative standard error greater than 50% and is
+            considered too unreliable for general use</common:Name
+          >
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_SEX"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">Sex</common:Name>
+        <structure:Code id="3">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Persons</common:Name>
+        </structure:Code>
+        <structure:Code id="1">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Males</common:Name>
+          <structure:Parent>
+            <Ref id="3" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="2">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Females</common:Name>
+          <structure:Parent>
+            <Ref id="3" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_STATE"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">State</common:Name>
+        <structure:Code id="AUS">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Australia</common:Name>
+        </structure:Code>
+        <structure:Code id="1">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">New South Wales</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="2">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">30</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Victoria</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="3">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">40</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Queensland</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="4">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">50</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">South Australia</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="5">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">60</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Western Australia</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="6">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">70</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Tasmania</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="7">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">80</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Northern Territory</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="8">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">90</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Australian Capital Territory</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="9">
+          <common:Annotations>
+            <common:Annotation>
+              <common:AnnotationType>ORDER</common:AnnotationType>
+              <common:AnnotationText xml:lang="en">100</common:AnnotationText>
+            </common:Annotation>
+          </common:Annotations>
+          <common:Name xml:lang="en">Other Territories</common:Name>
+          <structure:Parent>
+            <Ref id="AUS" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist
+        id="CL_UNIT_MEASURE"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en">Unit of Measure</common:Name>
+        <structure:Code id="AUD">
+          <common:Name xml:lang="en">Australian Dollars</common:Name>
+        </structure:Code>
+        <structure:Code id="NUM">
+          <common:Name xml:lang="en">Number</common:Name>
+        </structure:Code>
+        <structure:Code id="PCT">
+          <common:Name xml:lang="en">Percent</common:Name>
+        </structure:Code>
+        <structure:Code id="PCT_PTS">
+          <common:Name xml:lang="en">Percentage Points</common:Name>
+        </structure:Code>
+        <structure:Code id="PROP">
+          <common:Name xml:lang="en">Proportion</common:Name>
+        </structure:Code>
+        <structure:Code id="IN">
+          <common:Name xml:lang="en">Index Numbers</common:Name>
+        </structure:Code>
+        <structure:Code id="IP">
+          <common:Name xml:lang="en">Index Points</common:Name>
+        </structure:Code>
+        <structure:Code id="VAR">
+          <common:Name xml:lang="en">Variance</common:Name>
+        </structure:Code>
+        <structure:Code id="NA">
+          <common:Name xml:lang="en">Not Applicable</common:Name>
+        </structure:Code>
+        <structure:Code id="PSNS">
+          <common:Name xml:lang="en">Persons</common:Name>
+        </structure:Code>
+        <structure:Code id="PSN_YR">
+          <common:Name xml:lang="en">Person Years</common:Name>
+        </structure:Code>
+        <structure:Code id="JOB">
+          <common:Name xml:lang="en">Jobs</common:Name>
+        </structure:Code>
+        <structure:Code id="M_G">
+          <common:Name xml:lang="en">Milligrams</common:Name>
+        </structure:Code>
+        <structure:Code id="G">
+          <common:Name xml:lang="en">Grams</common:Name>
+        </structure:Code>
+        <structure:Code id="KG">
+          <common:Name xml:lang="en">Kilograms</common:Name>
+        </structure:Code>
+        <structure:Code id="CT">
+          <common:Name xml:lang="en">Carat (metric)</common:Name>
+        </structure:Code>
+        <structure:Code id="MCT">
+          <common:Name xml:lang="en">Megacarat (metric)</common:Name>
+        </structure:Code>
+        <structure:Code id="T">
+          <common:Name xml:lang="en">Tonnes</common:Name>
+        </structure:Code>
+        <structure:Code id="MT">
+          <common:Name xml:lang="en">Megatonnes</common:Name>
+        </structure:Code>
+        <structure:Code id="GT">
+          <common:Name xml:lang="en">Gigatonnes</common:Name>
+        </structure:Code>
+        <structure:Code id="TKM">
+          <common:Name xml:lang="en">Tonnes-kilometres</common:Name>
+        </structure:Code>
+        <structure:Code id="M_M">
+          <common:Name xml:lang="en">Millimetres</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="en">Metres</common:Name>
+        </structure:Code>
+        <structure:Code id="KM">
+          <common:Name xml:lang="en">Kilometres</common:Name>
+        </structure:Code>
+        <structure:Code id="SQM">
+          <common:Name xml:lang="en">Square Metres</common:Name>
+        </structure:Code>
+        <structure:Code id="SQKM">
+          <common:Name xml:lang="en">Square Kilometres</common:Name>
+        </structure:Code>
+        <structure:Code id="HA">
+          <common:Name xml:lang="en">Hectares</common:Name>
+        </structure:Code>
+        <structure:Code id="CBM">
+          <common:Name xml:lang="en">Cubic Metres</common:Name>
+        </structure:Code>
+        <structure:Code id="L">
+          <common:Name xml:lang="en">Litres</common:Name>
+        </structure:Code>
+        <structure:Code id="KL">
+          <common:Name xml:lang="en">Kilolitres</common:Name>
+        </structure:Code>
+        <structure:Code id="ML">
+          <common:Name xml:lang="en">Megalitres</common:Name>
+        </structure:Code>
+        <structure:Code id="GL">
+          <common:Name xml:lang="en">Gigalitres</common:Name>
+        </structure:Code>
+        <structure:Code id="A">
+          <common:Name xml:lang="en">Ampere</common:Name>
+        </structure:Code>
+        <structure:Code id="KVA">
+          <common:Name xml:lang="en">Kilovolt Amperes</common:Name>
+        </structure:Code>
+        <structure:Code id="W">
+          <common:Name xml:lang="en">Watts</common:Name>
+        </structure:Code>
+        <structure:Code id="KW">
+          <common:Name xml:lang="en">Kilowatts</common:Name>
+        </structure:Code>
+        <structure:Code id="KWH">
+          <common:Name xml:lang="en">Kilowatt Hours</common:Name>
+        </structure:Code>
+        <structure:Code id="GWH">
+          <common:Name xml:lang="en">Gigawatt Hours</common:Name>
+        </structure:Code>
+        <structure:Code id="J">
+          <common:Name xml:lang="en">Joules</common:Name>
+        </structure:Code>
+        <structure:Code id="KJ">
+          <common:Name xml:lang="en">Kilojoules</common:Name>
+        </structure:Code>
+        <structure:Code id="MJ">
+          <common:Name xml:lang="en">Megajoules</common:Name>
+        </structure:Code>
+        <structure:Code id="GJ">
+          <common:Name xml:lang="en">Gigajoules</common:Name>
+        </structure:Code>
+        <structure:Code id="TJ">
+          <common:Name xml:lang="en">Terajoules</common:Name>
+        </structure:Code>
+        <structure:Code id="PJ">
+          <common:Name xml:lang="en">Petajoules</common:Name>
+        </structure:Code>
+        <structure:Code id="C">
+          <common:Name xml:lang="en">Coulumb</common:Name>
+        </structure:Code>
+        <structure:Code id="CD">
+          <common:Name xml:lang="en">Candela</common:Name>
+        </structure:Code>
+        <structure:Code id="K">
+          <common:Name xml:lang="en">Kelvin</common:Name>
+        </structure:Code>
+        <structure:Code id="DEG_CEL">
+          <common:Name xml:lang="en">Degrees Celsius</common:Name>
+        </structure:Code>
+        <structure:Code id="S">
+          <common:Name xml:lang="en">Seconds</common:Name>
+        </structure:Code>
+        <structure:Code id="MIN">
+          <common:Name xml:lang="en">Minutes</common:Name>
+        </structure:Code>
+        <structure:Code id="HR">
+          <common:Name xml:lang="en">Hours</common:Name>
+        </structure:Code>
+        <structure:Code id="DAY">
+          <common:Name xml:lang="en">Days</common:Name>
+        </structure:Code>
+        <structure:Code id="WK">
+          <common:Name xml:lang="en">Weeks</common:Name>
+        </structure:Code>
+        <structure:Code id="MTH">
+          <common:Name xml:lang="en">Months</common:Name>
+        </structure:Code>
+        <structure:Code id="YR">
+          <common:Name xml:lang="en">Years</common:Name>
+        </structure:Code>
+        <structure:Code id="B">
+          <common:Name xml:lang="en">Bytes</common:Name>
+        </structure:Code>
+        <structure:Code id="KB">
+          <common:Name xml:lang="en">Kilobytes</common:Name>
+        </structure:Code>
+        <structure:Code id="MB">
+          <common:Name xml:lang="en">Megabytes</common:Name>
+        </structure:Code>
+        <structure:Code id="GB">
+          <common:Name xml:lang="en">Gigabytes</common:Name>
+        </structure:Code>
+        <structure:Code id="TB">
+          <common:Name xml:lang="en">Terabytes</common:Name>
+        </structure:Code>
+        <structure:Code id="DEG">
+          <common:Name xml:lang="en">Degrees</common:Name>
+        </structure:Code>
+        <structure:Code id="RAD">
+          <common:Name xml:lang="en">Radians</common:Name>
+        </structure:Code>
+        <structure:Code id="DOZ">
+          <common:Name xml:lang="en">Dozen</common:Name>
+        </structure:Code>
+        <structure:Code id="PR">
+          <common:Name xml:lang="en">Pairs</common:Name>
+        </structure:Code>
+        <structure:Code id="ROOM">
+          <common:Name xml:lang="en">Rooms</common:Name>
+        </structure:Code>
+        <structure:Code id="SITE">
+          <common:Name xml:lang="en">Sites</common:Name>
+        </structure:Code>
+        <structure:Code id="BUNDLE">
+          <common:Name xml:lang="en">Bundles</common:Name>
+        </structure:Code>
+        <structure:Code id="CARTON">
+          <common:Name xml:lang="en">Cartons</common:Name>
+        </structure:Code>
+        <structure:Code id="UNK">
+          <common:Name xml:lang="en">Unknown</common:Name>
+        </structure:Code>
+        <structure:Code id="GBP">
+          <common:Name xml:lang="en">Pound Sterling</common:Name>
+        </structure:Code>
+        <structure:Code id="CENT">
+          <common:Name xml:lang="en">Cents</common:Name>
+        </structure:Code>
+        <structure:Code id="FAM">
+          <common:Name xml:lang="en">Families</common:Name>
+        </structure:Code>
+        <structure:Code id="HH">
+          <common:Name xml:lang="en">Households</common:Name>
+        </structure:Code>
+        <structure:Code id="RATE">
+          <common:Name xml:lang="en">Rate</common:Name>
+        </structure:Code>
+        <structure:Code id="AUD_PER_EMP">
+          <common:Name xml:lang="en"
+            >Australian Dollars per Employee</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="AUD_PER_PSN">
+          <common:Name xml:lang="en">Australian Dollars per Person</common:Name>
+        </structure:Code>
+        <structure:Code id="AUD_PER_KL">
+          <common:Name xml:lang="en"
+            >Australian Dollars per Kilolitre</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="AUD_PER_KG">
+          <common:Name xml:lang="en"
+            >Australian Dollars per Kilogram</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="AUD_PER_T">
+          <common:Name xml:lang="en">Australian Dollars per Tonne</common:Name>
+        </structure:Code>
+        <structure:Code id="AUD_PER_CT">
+          <common:Name xml:lang="en">Australian Dollars per Carat</common:Name>
+        </structure:Code>
+        <structure:Code id="AUD_PER_SQM">
+          <common:Name xml:lang="en"
+            >Australian Dollars per Square Metre</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="AUD_PER_1000CBM">
+          <common:Name xml:lang="en"
+            >Australian Dollars per thousand cubic metres</common:Name
+          >
+        </structure:Code>
+        <structure:Code id="L_PER_100KM">
+          <common:Name xml:lang="en">Litres per 100 Kilometres</common:Name>
+        </structure:Code>
+        <structure:Code id="L_PER_KM">
+          <common:Name xml:lang="en">Litres per Kilometre</common:Name>
+        </structure:Code>
+        <structure:Code id="ML_PER_HA">
+          <common:Name xml:lang="en">Megalitres per Hectare</common:Name>
+        </structure:Code>
+        <structure:Code id="T_PER_HA">
+          <common:Name xml:lang="en">Tonnes per Hectare</common:Name>
+        </structure:Code>
+        <structure:Code id="PSNS_PER_SQKM">
+          <common:Name xml:lang="en">Persons per Square Kilometre</common:Name>
+        </structure:Code>
+        <structure:Code id="KG_PER_TREE">
+          <common:Name xml:lang="en">Kilograms per Tree</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:DataStructures>
+      <structure:DataStructure
+        id="NOM_CY"
+        agencyID="ABS"
+        version="1.0.0"
+        isFinal="true"
+      >
+        <common:Name xml:lang="en"
+          >Net overseas migration, Arrivals, departures and net,
+          State/territory, Age and sex - Calendar years, 2004 onwards
+          Datastructure</common:Name
+        >
+        <structure:DataStructureComponents>
+          <structure:DimensionList id="DimensionDescriptor">
+            <structure:Dimension id="MEASURE" position="1">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="MEASURE"
+                  maintainableParentID="CS_COMMON"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_NOM_MEASURE"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="AGE" position="2">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="AGE"
+                  maintainableParentID="CS_DEMOG"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_MIGRATION_AGE"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="SEX" position="3">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="SEX"
+                  maintainableParentID="CS_DEMOG"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_SEX"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="REGION" position="4">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="REGION"
+                  maintainableParentID="CS_GEOGRAPHY"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_STATE"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="FREQ" position="5">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="FREQ"
+                  maintainableParentID="CS_COMMON"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_FREQ"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:TimeDimension id="TIME_PERIOD" position="6">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="TIME_PERIOD"
+                  maintainableParentID="CS_COMMON"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="ObservationalTimePeriod" />
+              </structure:LocalRepresentation>
+            </structure:TimeDimension>
+          </structure:DimensionList>
+          <structure:AttributeList id="AttributeDescriptor">
+            <structure:Attribute
+              id="UNIT_MEASURE"
+              assignmentStatus="Conditional"
+            >
+              <structure:ConceptIdentity>
+                <Ref
+                  id="UNIT_MEASURE"
+                  maintainableParentID="CS_ATTRIBUTE"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_UNIT_MEASURE"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:Dimension>
+                  <Ref id="MEASURE" />
+                </structure:Dimension>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="OBS_STATUS" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="OBS_STATUS"
+                  maintainableParentID="CS_ATTRIBUTE"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref
+                    id="CL_OBS_STATUS"
+                    version="1.0.0"
+                    agencyID="ABS"
+                    package="codelist"
+                    class="Codelist"
+                  />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute
+              id="OBS_COMMENT"
+              assignmentStatus="Conditional"
+            >
+              <structure:ConceptIdentity>
+                <Ref
+                  id="OBS_COMMENT"
+                  maintainableParentID="CS_ATTRIBUTE"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+          </structure:AttributeList>
+          <structure:MeasureList id="MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE">
+              <structure:ConceptIdentity>
+                <Ref
+                  id="OBS_VALUE"
+                  maintainableParentID="CS_COMMON"
+                  maintainableParentVersion="1.0.0"
+                  agencyID="ABS"
+                  package="conceptscheme"
+                  class="Concept"
+                />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="Double" />
+              </structure:LocalRepresentation>
+            </structure:PrimaryMeasure>
+          </structure:MeasureList>
+        </structure:DataStructureComponents>
+      </structure:DataStructure>
+    </structure:DataStructures>
+  </message:Structures>
+</message:Structure>

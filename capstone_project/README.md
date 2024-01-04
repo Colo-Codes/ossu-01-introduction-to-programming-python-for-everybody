@@ -48,17 +48,17 @@ Bureau of Statistics provides a tool to explore data,
 tool is that it allows a visual inspection of the data and generates the
 corresponding API request for the selected data.
 
-Using this tool I selected the most interesting data sets for my intended
-analysis:
+I decided to not use the data I initially identified in MS Excel files and use
+this tool to select the most interesting data sets for my intended analysis:
 
 - Net Overseas Migration (per state)
 
-  - Net overseas migration, Arrivals, departures and net, State/territory, Age
-    and sex - Calendar years, 2004 onwards
+  - Dataset: Net overseas migration, Arrivals, departures and net,
+    State/territory, Age and sex - Calendar years, 2004 onwards
   - Measure: Net Overseas Migration
   - Age: All ages
   - Sex: Persons (no sex disaggregation)
-  - Region: Australia
+  - Region: Australia and Australian states
   - Frequency: Annual
   - Unit of measure: Number
   - Data visualisation:
@@ -77,7 +77,7 @@ analysis:
   - Sex: Persons (no sex disaggregation)
   - Age: Total (age)
   - Adjustment Type: Seasonally Adjusted
-  - Region: Australia
+  - Region: Australia and Australian states
   - Frequency: Monthly
   - Unit of measure: Percent
   - Data visualisation:
@@ -94,7 +94,8 @@ analysis:
   state)
   - Dataset: Residential Dwellings: Values, Mean Price and Number by State and
     Territories
-  - Region: Australia Frequency: Quarterly
+  - Region: Australia and Australian states
+  - Frequency: Quarterly
   - Measure: Number of residential dwellings
     - Unit of measure: Number, Thousands
   - Measure: Mean price of residential dwellings
@@ -107,6 +108,9 @@ analysis:
     ```
     https://api.data.abs.gov.au/data/ABS,RES_DWELL_ST,1.0.0/5+4..Q?startPeriod=2011-Q3&endPeriod=2023-Q3
     ```
+
+As the data contains different measures and frequencies, some cleanup and
+normalisation will be required to analyse it correctly.
 
 ### Building a data fetching script
 
