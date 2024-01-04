@@ -121,3 +121,29 @@ used the `xml.etree.ElementTree` module to parse the XML response.
 I decided to consider the period from 2011 to 2022 for the analysis. This is
 because the data for the number of residential dwellings is only available from
 2011 onwards, and the is no migration data for 2023 yet.
+
+### Building a data normalisation script
+
+### Basic statistics
+
+With the data already normalised, I can start performing some basic statistics
+such as:
+
+- Migration
+  - Year with most migration
+  - Year with less migration
+  - Average Migration per year
+  - Average Migration per state
+- Employment ratio
+  - Year with most employment ratio
+  - Year with less employment ratio
+  - Average employment ratio per year
+  - Average employment ratio per state
+- Dwellings (quantity)
+  - Year with most dwellings growth (compared to previous year)
+  - Year with less dwellings growth (compared to previous year)
+  - Average dwellings growth per year (compared to previous year)
+- Dwellings (price)
+  - Year with most dwelling price growth (compared to previous year)
+  - Year with less dwelling price growth (compared to previous year)
+  - Average dwelling price growth per year (compared to previous year)
