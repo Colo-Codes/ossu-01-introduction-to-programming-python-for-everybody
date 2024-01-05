@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load plotly.js into the DOM -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="charts.js"></script>
+  </head>
+
+  <body>
+    <div id="lineChart" style="width: 100%">
+      <!-- Plotly chart will be drawn inside this DIV -->
+    </div>
+    <div style="display: flex; flex-direction: column; width: 100%">
+      <div style="display: flex; justify-content: space-around">
+        <div id="chart3dMigration">
+          <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+        <div id="chart3dEmployment">
+          <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-around">
+        <div id="chart3dDwellingNumbers">
+          <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+        <div id="chart3dDwellingPrices">
+          <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const data = [trace1, trace2, trace3, trace4];
+
+      const layout = {
+        title: 'Australia Statistics',
+        autosize: true,
+        margin: {
+          l: 50,
+          r: 50,
+          b: 50,
+          t: 50,
+          pad: 10,
+        },
+        xaxis: { domain: [0.12, 0.8] },
+        yaxis: {
+          title: 'Migrations',
+          titlefont: { color: 'navy' },
+          tickfont: { color: 'navy' },
+        },
+        yaxis2: {
+          title: 'Employment Ratio',
+          titlefont: { color: 'chocolate' },
+          tickfont: { color: 'chocolate' },
+          anchor: 'free',
+          overlaying: 'y',
+          side: 'left',
+          position: 0.03,
+        },
+        yaxis3: {
+          title: 'Dwelling Quantity',
+          titlefont: { color: 'green' },
+          tickfont: { color: 'green' },
+          anchor: 'x',
+          overlaying: 'y',
+          side: 'right',
+        },
+        yaxis4: {
+          title: 'Dwelling Mean Price',
+          titlefont: { color: 'limegreen' },
+          tickfont: { color: 'limegreen' },
+          anchor: 'free',
+          overlaying: 'y',
+          side: 'right',
+          position: 0.9,
+        },
+      };
+
+      Plotly.newPlot('lineChart', data, layout);
+
+      const trace3dMigration1 = {
+        x: trace_3d_migrations.data[0].x,
+        y: trace_3d_migrations.data[0].y,
+        z: trace_3d_migrations.data[0].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration2 = {
+        x: trace_3d_migrations.data[1].x,
+        y: trace_3d_migrations.data[1].y,
+        z: trace_3d_migrations.data[1].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration3 = {
+        x: trace_3d_migrations.data[2].x,
+        y: trace_3d_migrations.data[2].y,
+        z: trace_3d_migrations.data[2].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration4 = {
+        x: trace_3d_migrations.data[3].x,
+        y: trace_3d_migrations.data[3].y,
+        z: trace_3d_migrations.data[3].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration5 = {
+        x: trace_3d_migrations.data[4].x,
+        y: trace_3d_migrations.data[4].y,
+        z: trace_3d_migrations.data[4].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration6 = {
+        x: trace_3d_migrations.data[5].x,
+        y: trace_3d_migrations.data[5].y,
+        z: trace_3d_migrations.data[5].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration7 = {
+        x: trace_3d_migrations.data[6].x,
+        y: trace_3d_migrations.data[6].y,
+        z: trace_3d_migrations.data[6].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dMigration8 = {
+        x: trace_3d_migrations.data[7].x,
+        y: trace_3d_migrations.data[7].y,
+        z: trace_3d_migrations.data[7].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+
+      var data3dMigration = [
+        trace3dMigration1,
+        trace3dMigration2,
+        trace3dMigration3,
+        trace3dMigration4,
+        trace3dMigration5,
+        trace3dMigration6,
+        trace3dMigration7,
+        trace3dMigration8,
+      ];
+
+      const layout3dMigration = {
+        title: 'Migrations per Year and State',
+        showlegend: false,
+        autosize: true,
+        width: '50%',
+        height: 700,
+        scene: {
+          xaxis: { title: '' },
+          yaxis: { title: 'Year' },
+          zaxis: { title: 'Migrations' },
+        },
+      };
+
+      Plotly.newPlot('chart3dMigration', data3dMigration, layout3dMigration);
+
+      // 3D Employment
+      const trace3dEmployment1 = {
+        x: trace_3d_employment.data[0].x,
+        y: trace_3d_employment.data[0].y,
+        z: trace_3d_employment.data[0].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment2 = {
+        x: trace_3d_employment.data[1].x,
+        y: trace_3d_employment.data[1].y,
+        z: trace_3d_employment.data[1].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment3 = {
+        x: trace_3d_employment.data[2].x,
+        y: trace_3d_employment.data[2].y,
+        z: trace_3d_employment.data[2].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment4 = {
+        x: trace_3d_employment.data[3].x,
+        y: trace_3d_employment.data[3].y,
+        z: trace_3d_employment.data[3].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment5 = {
+        x: trace_3d_employment.data[4].x,
+        y: trace_3d_employment.data[4].y,
+        z: trace_3d_employment.data[4].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment6 = {
+        x: trace_3d_employment.data[5].x,
+        y: trace_3d_employment.data[5].y,
+        z: trace_3d_employment.data[5].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment7 = {
+        x: trace_3d_employment.data[6].x,
+        y: trace_3d_employment.data[6].y,
+        z: trace_3d_employment.data[6].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dEmployment8 = {
+        x: trace_3d_employment.data[7].x,
+        y: trace_3d_employment.data[7].y,
+        z: trace_3d_employment.data[7].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+
+      var data3dEmployment = [
+        trace3dEmployment1,
+        trace3dEmployment2,
+        trace3dEmployment3,
+        trace3dEmployment4,
+        trace3dEmployment5,
+        trace3dEmployment6,
+        trace3dEmployment7,
+        trace3dEmployment8,
+      ];
+
+      const layout3dEmployment = {
+        title: 'Employment Ratio per Year and State',
+        showlegend: false,
+        autosize: true,
+        width: '50%',
+        height: 700,
+        scene: {
+          xaxis: { title: '' },
+          yaxis: { title: 'Year' },
+          zaxis: { title: 'Employment Ratio' },
+        },
+      };
+
+      Plotly.newPlot('chart3dEmployment', data3dEmployment, layout3dEmployment);
+
+      // 3D Dwelling Numbers
+      const trace3dDwellingNumbers1 = {
+        x: trace_3d_dwelling_numbers.data[0].x,
+        y: trace_3d_dwelling_numbers.data[0].y,
+        z: trace_3d_dwelling_numbers.data[0].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers2 = {
+        x: trace_3d_dwelling_numbers.data[1].x,
+        y: trace_3d_dwelling_numbers.data[1].y,
+        z: trace_3d_dwelling_numbers.data[1].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers3 = {
+        x: trace_3d_dwelling_numbers.data[2].x,
+        y: trace_3d_dwelling_numbers.data[2].y,
+        z: trace_3d_dwelling_numbers.data[2].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers4 = {
+        x: trace_3d_dwelling_numbers.data[3].x,
+        y: trace_3d_dwelling_numbers.data[3].y,
+        z: trace_3d_dwelling_numbers.data[3].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers5 = {
+        x: trace_3d_dwelling_numbers.data[4].x,
+        y: trace_3d_dwelling_numbers.data[4].y,
+        z: trace_3d_dwelling_numbers.data[4].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers6 = {
+        x: trace_3d_dwelling_numbers.data[5].x,
+        y: trace_3d_dwelling_numbers.data[5].y,
+        z: trace_3d_dwelling_numbers.data[5].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers7 = {
+        x: trace_3d_dwelling_numbers.data[6].x,
+        y: trace_3d_dwelling_numbers.data[6].y,
+        z: trace_3d_dwelling_numbers.data[6].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingNumbers8 = {
+        x: trace_3d_dwelling_numbers.data[7].x,
+        y: trace_3d_dwelling_numbers.data[7].y,
+        z: trace_3d_dwelling_numbers.data[7].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+
+      var data3dDwellingNumbers = [
+        trace3dDwellingNumbers1,
+        trace3dDwellingNumbers2,
+        trace3dDwellingNumbers3,
+        trace3dDwellingNumbers4,
+        trace3dDwellingNumbers5,
+        trace3dDwellingNumbers6,
+        trace3dDwellingNumbers7,
+        trace3dDwellingNumbers8,
+      ];
+
+      const layout3dDwellingNumbers = {
+        title: 'Dwelling Quantity per Year and State',
+        showlegend: false,
+        autosize: true,
+        width: '50%',
+        height: 700,
+        scene: {
+          xaxis: { title: '' },
+          yaxis: { title: 'Year' },
+          zaxis: { title: 'Dwelling Quantity' },
+        },
+      };
+
+      Plotly.newPlot(
+        'chart3dDwellingNumbers',
+        data3dDwellingNumbers,
+        layout3dDwellingNumbers,
+      );
+
+      // 3D Dwelling Mean Prices
+      const trace3dDwellingPrices1 = {
+        x: trace_3d_dwelling_prices.data[0].x,
+        y: trace_3d_dwelling_prices.data[0].y,
+        z: trace_3d_dwelling_prices.data[0].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices2 = {
+        x: trace_3d_dwelling_prices.data[1].x,
+        y: trace_3d_dwelling_prices.data[1].y,
+        z: trace_3d_dwelling_prices.data[1].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices3 = {
+        x: trace_3d_dwelling_prices.data[2].x,
+        y: trace_3d_dwelling_prices.data[2].y,
+        z: trace_3d_dwelling_prices.data[2].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices4 = {
+        x: trace_3d_dwelling_prices.data[3].x,
+        y: trace_3d_dwelling_prices.data[3].y,
+        z: trace_3d_dwelling_prices.data[3].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices5 = {
+        x: trace_3d_dwelling_prices.data[4].x,
+        y: trace_3d_dwelling_prices.data[4].y,
+        z: trace_3d_dwelling_prices.data[4].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices6 = {
+        x: trace_3d_dwelling_prices.data[5].x,
+        y: trace_3d_dwelling_prices.data[5].y,
+        z: trace_3d_dwelling_prices.data[5].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices7 = {
+        x: trace_3d_dwelling_prices.data[6].x,
+        y: trace_3d_dwelling_prices.data[6].y,
+        z: trace_3d_dwelling_prices.data[6].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+      const trace3dDwellingPrices8 = {
+        x: trace_3d_dwelling_prices.data[7].x,
+        y: trace_3d_dwelling_prices.data[7].y,
+        z: trace_3d_dwelling_prices.data[7].z,
+        name: 'test',
+        type: 'surface',
+        showscale: false,
+      };
+
+      var data3dDwellingPrices = [
+        trace3dDwellingPrices1,
+        trace3dDwellingPrices2,
+        trace3dDwellingPrices3,
+        trace3dDwellingPrices4,
+        trace3dDwellingPrices5,
+        trace3dDwellingPrices6,
+        trace3dDwellingPrices7,
+        trace3dDwellingPrices8,
+      ];
+
+      const layout3dDwellingPrices = {
+        title: 'Dwelling Mean Prices per Year and State',
+        showlegend: false,
+        autosize: true,
+        width: '50%',
+        height: 700,
+        scene: {
+          xaxis: { title: '' },
+          yaxis: { title: 'Year' },
+          zaxis: { title: 'Dwelling Mean Prices' },
+        },
+      };
+
+      Plotly.newPlot(
+        'chart3dDwellingPrices',
+        data3dDwellingPrices,
+        layout3dDwellingPrices,
+      );
+    </script>
+  </body>
+</html>
