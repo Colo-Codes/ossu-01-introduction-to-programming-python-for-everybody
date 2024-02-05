@@ -1,53 +1,37 @@
-# Capstone Project
+# Capstone Project: Analysing Australia's Migration Trends and Economic Impact with Python
 
-## Identifying the Data Source
+## Python for Everybody Capstone Project
 
-For this Python for Everybody capstone project I selected data provided by the
-Australian Bureau of Statistics about the following areas:
+In my recently completed Python for Everybody course, we wrapped up with a capstone project that got me diving into data exploration.
 
-- [Overseas Migration](https://www.abs.gov.au/statistics/people/population/overseas-migration/2022-23-financial-year)
-- [Labour Force](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/nov-2023)
-- [Housing Occupancy and Costs](https://www.abs.gov.au/statistics/people/housing/housing-occupancy-and-costs/2019-20)
-- [Total Value of Dwellings](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/latest-release#:~:text=The%20number%20of%20residential%20dwellings%20in%20Australia%20rose%20by%2052%2C300,%2419%2C200%20to%20%24925%2C400%20this%20quarter.)
+Recently, my attention was caught by discussions and news bits talking about how international migration shakes up Australia's job and housing scenes. So, with my curiosity fired up, I decided to dig into the data, hoping to discover connections between international migration and the trends in these markets.
 
-Most of the data is available in MS Excel format, which made me think it would
-be somewhat straightforward to work with.
+Being an international migrant myself, I've got a personal stake in understanding how Australia's migration policies and the flow of immigrants play out in the country's economy. 
 
-Recent news and forum discussions regarding the influence of international
-migration on Australia's job and housing markets have piqued my curiosity, so I
-was keen on analysing data to uncover potential correlations that may connect
-international migration with trends in these markets.
+Fortunately, Australia boasts an incredible data gold mine: the Australian Bureau of Statistics (ABS). I managed to search their data and find information about [Overseas Migration](https://www.abs.gov.au/statistics/people/population/overseas-migration/2022-23-financial-year), [Labour Force](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/nov-2023), [Housing Occupancy and Costs](https://www.abs.gov.au/statistics/people/housing/housing-occupancy-and-costs/2019-20), and [Total Value of Dwellings](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/latest-release#:~:text=The%20number%20of%20residential%20dwellings%20in%20Australia%20rose%20by%2052%2C300,%2419%2C200%20to%20%24925%2C400%20this%20quarter.).
 
-As an international migrant myself, I am personally invested in understanding
-how Australia's migration policies and the influx of immigrants impact the
-country's economy.
+I initially intended to perform the following analysis with this data:
 
-I intended to perform the following analysis with this data:
+-	**Database Integration:** Import the data into a database for efficient querying and analysis.
+-	**Visualization:** Generate maps, charts, and graphs to represent migration and economic data.
+-	**Economic Impact Analysis:** Understand the economic impact of migration on housing and job markets.
+-	**Correlation Analysis:** Identify potential correlations between migration, labour force, and housing data.
 
-- **Database Integration:** Import the data into a database for efficient
-  querying and analysis.
-- **Visualization:** Generate maps, charts, and graphs to represent migration
-  and economic data.
-- **Economic Impact Analysis:** Understand the economic impact of migration on
-  housing and job markets.
-- **Correlation Analysis:** Identify potential correlations between migration,
-  labour force, and housing data.
+## Picking the Data Source
 
-## Analysing a Data Source
+When I first dug into the data from the ABS, I noticed they had it neatly laid out in both MS Excel and CSV formats. Seemed like it could be pretty straightforward to handle, perhaps with a handy Python script.
 
-Upon further investigation, I discovered that the data is available through an
-API provided by the Australian Bureau of Statistics. This makes it easier to
-fetch the data with Python, integrate it into a database, and then perform
-analysis. The API provides an XML response.
+The topics I was interested in were:
+-	[Overseas Migration](https://www.abs.gov.au/statistics/people/population/overseas-migration/2022-23-financial-year)
+-	[Labour Force](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/nov-2023)
+-	[Housing Occupancy and Costs](https://www.abs.gov.au/statistics/people/housing/housing-occupancy-and-costs/2019-20)
+-	[Total Value of Dwellings](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/total-value-dwellings/latest-release#:~:text=The%20number%20of%20residential%20dwellings%20in%20Australia%20rose%20by%2052%2C300,%2419%2C200%20to%20%24925%2C400%20this%20quarter.)
 
-After trying to build an API request on my own, I discovered that the Australian
-Bureau of Statistics provides a tool to explore data,
-[Stat Data Explorer](https://explore.data.abs.gov.au/). What's cool about this
-tool is that it allows a visual inspection of the data and generates the
-corresponding API request for the selected data.
+But then, I found out there was another door to this data exploration – an API provided by the ABS. This meant I could easily fetch the data using Python, push it into a database, and then dive into analysis mode. As the API provides an XML response, I could be using ElementTree to parse it.
 
-I decided to not use the data I initially identified in MS Excel files and use
-this tool to select the most interesting data sets for my intended analysis:
+After trying to build an API request on my own, I stumbled upon a tool that the Australian Bureau of Statistics provides to explore data called Stat Data Explorer. What's neat about it is that it lets you visually explore the data and even generates the right API request for the info you've seen.
+
+So, I ditched the idea of using the initial data from the Excel files and opted to pick out the juiciest datasets for my analysis using this cool tool:
 
 - Net Overseas Migration (per state)
 
@@ -107,52 +91,33 @@ this tool to select the most interesting data sets for my intended analysis:
     https://api.data.abs.gov.au/data/ABS,RES_DWELL_ST,1.0.0/5+4..Q?startPeriod=2011-Q3&endPeriod=2023-Q3
     ```
 
-As the data contained different measures and frequencies, some cleanup and
-normalisation was required to analyse it correctly.
+## Building a Data Fetching Script
 
-## Building a data fetching script
+I kicked things off by crafting a nifty Python script called `data_getter.py` to get the data from the Australian Bureau of Statistics API. As I mentioned earlier, since the data dances in XML format, I enlisted the help of the `xml.etree.ElementTree` module to untangle its secrets 😅.
 
-I started by building the Python script (`data_getter.py`) to get the data from
-the Australian Bureau of Statistics API endpoints. As the data is available in
-XML format, I used the `xml.etree.ElementTree` module to parse the XML response.
+For the analysis, I set my sights on the period from 2011 to 2022. Why, you ask? Well, that's because the data for the number of residential dwellings is only available from 2011 onwards, and there was no migration data for 2023 at the moment of working on this project.
 
-I decided to consider the period from 2011 to 2022 for the analysis. This is
-because the data for the number of residential dwellings is only available from
-2011 onwards, and there is no migration data for 2023 yet.
+Once I processed the XML data, I tucked it neatly into an SQLite database named `capstone.sqlite`. Why SQLite? Because it's lightweight and easy to use (and the database that we have been using throughout the course).
 
-Once the XML data was parsed, I inserted it into a SQLite database
-(`capstone.sqlite`). I decided to use SQLite because it is lightweight and easy
-to use (and the database that we have been using throughout the course).
+After analysing it for a while, and a bit of trial and error, I came up with an Entity-Relationship Diagram (ERD) for the database that looks like this:
 
 <img src="./resources/database_design.jpg">
 
 > You can test this script by running `python3 data_getter.py` in your terminal.
 
-## Building a data normalisation script
+## Building a Data Normalization Script
 
-After fetching the data, I noticed that the data was not normalised. For
-example, the number of residential dwellings is available in quarters, while the
-employment ratio is available in months. I decided to normalise the data to
-years, as is the case with migrations data.
+Once I fetched the data, I spotted a little quirk – it wasn't playing nice in terms of consistency. Imagine this: the count of homes came in quarters, but the job scene spilled the beans monthly. So, I decided to bring order to the chaos and normalize the data, all cosy and snug in a yearly fashion, just like our migration data.
 
-I built another Python script (`data_normaliser.py`) to normalise the data. This
-script also performs a data insertion into a "clean" database
-(`capstone_normalised.sqlite`). This database will be used for the analysis and
-visualisation of the data.
+It was now the turn of another Python script: `data_normaliser.py`. This script not only handles the data makeover but also has a flair for inserting the revamped data into a squeaky-clean database named `capstone_normalised.sqlite`. This polished database is all set to steal the spotlight for the grand finale – the analysis and visualization of our data tale.
 
 <img src="./resources/normalised_database_design.jpg">
 
-> You can test this script by running `python3 data_normaliser.py` in your
-> terminal.
+> You can test this script by running `python3 data_normaliser.py` in your terminal.
 
-## Data Statistics
+## Data Analysis
 
-Once the data was normalised, I could start performing some analysis and
-visualization.
-
-I started by getting basic statistics about the data. In order to accomplish
-this, I built a Python script (`data_stats.py`) that delivered the following
-statistics:
+Now that our data is all neat and tidy, it was time to roll up our sleeves and dive into the world of analysis and visualization. To kick things off, I crafted a Python script called `data_stats.py` that churned out some essential statistics to explore:
 
 - Migration
   - Year with highest migration
@@ -260,77 +225,40 @@ Getting dwelling prices data from database...
         Australia: 645 (x1000) AUD
 ```
 
-## Data Visualization
+## Data Visualisation
 
-Next, I built a Python script (`data_visualiser.py`) to generate the following
-visualisations:
+Moving on, I crafted a Python script named `data_visualiser.py` to whip up some captivating visualizations. Here's the end result:
 
-- a 2D chart comparing the data dimensions at a national level,
-- four 3D charts comparing the data dimensions among Australia's states.
+-	A snazzy 2D chart laying out the data landscape on a national scale.
+-	Four dynamic 3D charts, giving us a state-level peek into the data dimensions across Australia.
 
-I initially tried using the `3d.js` library to generate the charts, but I had to
-plot multiple data dimensions in the same chart, and I could not find a clean
-way to do it with this library. I then decided to use the `plotly.js` library,
-which allowed me to plot multiple data dimensions in the same chart in a very
-straightforward way.
+At first, I gave the `3d.js` library a shot for the charts, but it struggled when I tried to juggle multiple data dimensions in the same graph. Not to worry, I pivoted to the `plotly.js` library, and it played nice, letting me plot those dimensions, but not without breaking a sweat 😓.
 
-I created a main chart focusing on Migration, Employment Ratio, Dwelling
-Quantity, and Mean Price at a national level. This allowed me to analyze how
-these variables correlated and spot trends. Of course, correlation in this chart
-does not necessarily mean causation, as there are more factors to consider for a
-proper analysis. Still, for the sake of this project, the plotted data should
-suffice.
+Oh, by the way, you can view these charts live online by [clicking here](https://projects-p4e.damiandemasi.com/capstone_project/charts.htm)!
+
+The star of the show? A grand chart focusing on Migration, Employment Ratio, Dwelling Quantity, and Mean Price nationwide. This beauty allowed me to dissect how these variables dance together and catch any trends. Now, mind you, correlation in this chart doesn't automatically mean causation – there's a whole orchestra of factors for a proper analysis. But for our project's sake, the plotted data paints quite the picture.
 
 <img src="resources/chart1.png">
 
-I found that 2020 was the year with fewer migrations (post-COVID-19 year),
-correlating with a significant drop in the Employment Ratio, indicating more
-people were unemployed. This drop in Employment Ratio is likely due to the
-impact of the pandemic on the job market rather than the sharp drop in
-migration. The dwelling quantity (the number of available residencies) remained
-in steady growth, while the mean dwelling price began to drop as it
-approached 2020. In 2021 and 2022, once migration spiked again (due to Australia
-reopening its borders), the Employment Ratio and mean dwelling price also
-spiked. However, the dwelling quantity did not undergo any alteration in its
-steady growth. The fact that in 2021 and 2022 more migrants arrived in
-Australia, and the number of dwellings remained unaltered in its tendency, may
-explain the sharp increase in mean dwelling prices (indicating more demand for
-houses). The Employment Ratio improved as migration increased, suggesting that
-migration did not have a negative impact on employment.
+In 2020, a noticeable dip in migrations coincided with the aftermath of COVID-19, leading to a significant decline in the Employment Ratio—hinting at a rise in unemployment. The drop in employment is likely a result of the pandemic's impact on the job market rather than a direct consequence of decreased migration. Meanwhile, the number of available homes continued its steady growth, while the average dwelling price started a descent as it approached 2020.
 
-I also plotted four other 3D charts comparing the dimensions of Migration,
-Employment Ratio, Dwelling Quantity, and Mean Price among Australia's states.
-Several conclusions can be drawn from these charts, such as migrants preferring
-the states of New South Wales and Victoria to migrate to and how these states
-are driving the rise in Dwelling Quantity, the not-so-sharp increase in dwelling
-prices for the Northern Territory, and the good health of the employment market
-in the Northern Territory as well.
+As we stepped into 2021 and 2022, witnessing a resurgence in migration as Australia reopened its borders, a parallel spike in both the Employment Ratio and mean dwelling prices caught my eye. Interestingly, the number of dwellings maintained its consistent growth. The surge in mean dwelling prices during these years could be attributed to the increased influx of migrants, and the fact that the number of dwellings remained unaltered in its tendency, creating a higher demand for houses.
+
+Interestingly, as migration gained momentum in 2021 and 2022, the Employment Ratio also showed improvement, suggesting that the increase in migration didn't negatively impact employment.
+
+I dug into creating four more 3D charts, each showcasing the dynamics of Migration, Employment Ratio, Dwelling Quantity, and Mean Price across different states in Australia. These charts unveil interesting insights, like migrants showing a preference for New South Wales and Victoria. These states seem to play a significant role in the growing number of available homes. Meanwhile, the Northern Territory experiences a more gradual increase in dwelling prices, and its employment market appears to be in robust shape.
+
 
 <img src="resources/chart2.png">
 
 <img src="resources/chart3.png">
 
-Using a 2D line chart to compare the data dimensions at a national level helped
-to spot trends and correlations, which was the original idea after the first
-contact with the data. Using 3D graphs to compare different states was a great
-tool to dive into the comparison of the data dimensions across states in a
-dynamic and engaging way. The experience gained from working on this project
-will undoubtedly benefit me in the future. It provided an opportunity to apply
-and enhance my skills in Python, SQL databases, data analysis, visualization,
-and interpretation. Navigating through real-world data, although challenging at
-times, has improved my problem-solving abilities. Overall, this project has been
-a valuable learning experience that will contribute to my growth as a software
-engineer.
+Employing a 2D line chart for a nationwide data overview proved effective in uncovering trends and correlations, aligning with the initial goal when first exploring the data. The use of 3D graphs to compare states added a dynamic and engaging layer to the analysis, offering a deeper understanding of the data dynamics across different regions.
 
 > You can generate these charts by running `python3 data_visualiser.py` in your
 > terminal and then opening the `charts.htm` file in your browser. The raw data
 > for the charts can be found in the `charts.js` file.
 
-## Final Thoughts about the Capstone Project and the Course
+## Key Takeaways
 
-The experience gained from working on this project will undoubtedly benefit me
-in the future. It provided an opportunity to apply and enhance my skills in
-Python, SQL databases, data analysis, visualization, and interpretation.
-Navigating through real-world data, although challenging at times, has improved
-my problem-solving abilities. Overall, this project has been a valuable learning
-experience that will contribute to my growth as a software engineer.
+The lessons learned from this project will undoubtedly have a positive impact on my future endeavours. It served as a platform to apply my recently learned skills in Python, SQL databases, data analysis, visualization, and interpretation. Despite the occasional challenges of navigating through real-world data, it significantly enhanced my problem-solving abilities. In essence, this project has been a valuable learning journey, contributing significantly to my growth as a software engineer.
